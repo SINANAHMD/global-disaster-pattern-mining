@@ -1,0 +1,46 @@
+INDIA STATE RISK ENGINE REPORT
+======================================================================
+
+Model: HistGradientBoostingClassifier
+Training period: 2015-2024
+Model was retrained in the current Python environment.
+
+States scored: 20
+
+2025 test metrics:
+ROC-AUC: 0.6719
+PR-AUC: 0.2412
+Brier score: 0.0914
+
+Risk distribution:
+risk_level
+VERY LOW     18
+VERY HIGH     1
+LOW           1
+
+Data coverage:
+data_confidence
+LIMITED DATA COVERAGE    20
+
+Top predicted states:
+    state_name  event_probability_percent risk_level       data_confidence
+   West Bengal                      86.21  VERY HIGH LIMITED DATA COVERAGE
+    Tamil Nadu                      17.78        LOW LIMITED DATA COVERAGE
+Andhra Pradesh                       9.64   VERY LOW LIMITED DATA COVERAGE
+        Odisha                       9.64   VERY LOW LIMITED DATA COVERAGE
+        Kerala                       9.12   VERY LOW LIMITED DATA COVERAGE
+   Maharashtra                       2.09   VERY LOW LIMITED DATA COVERAGE
+       Gujarat                       2.09   VERY LOW LIMITED DATA COVERAGE
+       Mizoram                       0.71   VERY LOW LIMITED DATA COVERAGE
+     Meghalaya                       0.22   VERY LOW LIMITED DATA COVERAGE
+  Chhattisgarh                       0.08   VERY LOW LIMITED DATA COVERAGE
+
+IMPORTANT:
+These are statistical estimates based on historical EONET observations.
+They are not official disaster warnings.
+The probability refers to at least one recorded EONET event in the following month.
+Data coverage is separate from model probability.
+
+Existing global K-Means: UNCHANGED
+Existing global prediction: UNCHANGED
+Frontend/backend: UNCHANGED

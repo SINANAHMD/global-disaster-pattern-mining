@@ -1,0 +1,63 @@
+NASA EONET FINAL CLEANING REPORT
+======================================================================
+Input rows: 35,766
+Final rows: 35,766
+Exact duplicate rows removed: 0
+Invalid coordinate rows detected: 0
+Rows with coordinates: 35,497
+Rows without coordinates: 269
+Invalid dates: 0
+Final columns: 36
+
+Category labels:
+  - Drought
+  - Dust and Haze
+  - Earthquakes
+  - Floods
+  - Landslides
+  - Manmade
+  - Sea and Lake Ice
+  - Severe Storms
+  - Snow
+  - Temperature Extremes
+  - Volcanoes
+  - Water Color
+  - Wildfires
+
+Missing values:
+source_urls                 35766
+source_names                35766
+magnitude_value             17797
+magnitude_unit              17797
+closed                       6072
+latitude                      269
+longitude                     267
+source_ids                     18
+category_count                  0
+categories                      0
+title                           0
+event_id                        0
+has_coordinates                 0
+month_name                      0
+year                            0
+month                           0
+event_date                      0
+geometry_type                   0
+source_count                    0
+is_multi_category               0
+geometry_count                  0
+event_link                      0
+cat_drought                     0
+cat_dust_and_haze               0
+cat_earthquakes                 0
+cat_floods                      0
+cat_landslides                  0
+cat_manmade                     0
+cat_sea_and_lake_ice            0
+cat_severe_storms               0
+cat_snow                        0
+cat_temperature_extremes        0
+cat_volcanoes                   0
+cat_water_color                 0
+cat_wildfires                   0
+category_ids                    0

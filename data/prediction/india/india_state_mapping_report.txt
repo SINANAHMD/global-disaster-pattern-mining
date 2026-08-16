@@ -1,0 +1,62 @@
+============================================================
+INDIA STATE MAPPING DIAGNOSTIC
+============================================================
+Total EONET geometry observations: 35766
+Total unique event IDs: 14671
+Unique events with valid coordinates: 14403
+
+Geometry observations intersecting India: 80
+Unique events affecting India: 66
+
+Number of states/UTs represented: 20
+
+Top states by unique event count:
+  - Madhya Pradesh: 10 unique events (10 observations, 2024–2025)
+  - Chhattisgarh: 8 unique events (8 observations, 2021–2025)
+  - Mizoram: 7 unique events (7 observations, 2016–2025)
+  - Andhra Pradesh: 6 unique events (7 observations, 2018–2025)
+  - Maharashtra: 4 unique events (8 observations, 2020–2025)
+  - Odisha: 4 unique events (5 observations, 2019–2025)
+  - Gujarat: 4 unique events (5 observations, 2021–2025)
+  - Kerala: 4 unique events (4 observations, 2018–2025)
+  - Tamil Nadu: 4 unique events (5 observations, 2018–2024)
+  - Bihar: 3 unique events (3 observations, 2025–2025)
+  - West Bengal: 3 unique events (4 observations, 2020–2024)
+  - Karnataka: 3 unique events (3 observations, 2018–2025)
+  - Meghalaya: 3 unique events (3 observations, 2025–2025)
+  - Telangana: 2 unique events (2 observations, 2021–2025)
+  - Assam: 1 unique events (1 observations, 2025–2025)
+  - Jharkhand: 1 unique events (1 observations, 2025–2025)
+  - Sikkim: 1 unique events (1 observations, 2025–2025)
+  - Nagaland: 1 unique events (1 observations, 2025–2025)
+  - Tripura: 1 unique events (1 observations, 2025–2025)
+  - Uttar Pradesh: 1 unique events (1 observations, 2025–2025)
+
+Events with no India state intersection: 14337
+Events affecting multiple Indian states: 2
+Maximum number of states affected by a single event: 5
+
+------------------------------------------------------------
+MULTI-STATE EVENTS (TOP 20):
+------------------------------------------------------------
+  - EONET_5938 | 'Tropical Storm Shaheen-Gulab' | 5 states: [Andhra Pradesh, Chhattisgarh, Gujarat, Maharashtra, Telangana]
+  - EONET_4034 | 'Tropical Cyclone Gaja' | 2 states: [Kerala, Tamil Nadu]
+
+------------------------------------------------------------
+COORDINATE QUALITY & PLAUSIBILITY SAMPLES:
+------------------------------------------------------------
+  - EONET_15825 | Andhra Pradesh | (16.9°N, 81.4°E) | 'Tropical Cyclone Montha'
+  - EONET_4005 | Andhra Pradesh | (18.9°N, 84.5°E) | 'Tropical Cyclone Titli'
+  - EONET_4052 | Andhra Pradesh | (17.3°N, 82.3°E) | 'Tropical Cyclone Phethai'
+  - EONET_5938 | Andhra Pradesh | (18.15°N, 82.8°E) | 'Tropical Storm Shaheen-Gulab'
+  - EONET_6055 | Andhra Pradesh | (16.0°N, 81.0°E) | 'Tropical Cyclone Asani'
+  - EONET_6457 | Andhra Pradesh | (14.3°N, 80.1°E) | 'Tropical Cyclone Michaung'
+  - EONET_13038 | Assam | (25.77019°N, 91.199234°E) | 'Wildfire in India 1023613'
+  - EONET_16243 | Bihar | (25.157945°N, 84.034515°E) | 'Wildfire in India 1026109'
+  - EONET_16284 | Bihar | (25.083209°N, 83.892871°E) | 'Wildfire in India 1026126'
+  - EONET_16482 | Bihar | (25.213801°N, 83.875651°E) | 'Wildfire in India 1026302'
+  - EONET_16402 | Chhattisgarh | (20.923641°N, 81.971588°E) | 'Wildfire in India 1026220'
+  - EONET_16429 | Chhattisgarh | (20.801076°N, 81.884248°E) | 'Wildfire in India 1026257'
+  - EONET_16479 | Chhattisgarh | (20.80399°N, 81.865786°E) | 'Wildfire in India 1026300'
+  - EONET_16480 | Chhattisgarh | (21.159144°N, 82.364909°E) | 'Wildfire in India 1026301'
+  - EONET_16646 | Chhattisgarh | (21.893811°N, 82.653862°E) | 'Wildfire in India 1026453'

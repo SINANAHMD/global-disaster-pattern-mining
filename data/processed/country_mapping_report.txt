@@ -1,0 +1,35 @@
+NASA EONET COUNTRY MAPPING REPORT
+======================================================================
+Total cleaned observations: 35,766
+Observations with coordinates: 35,497
+Country mapped: 14,023
+Unmapped: 21,474
+Mapping success rate: 39.50%
+
+Top countries:
+country
+United States of America            5532
+Australia                           1458
+Canada                               934
+Brazil                               799
+Russia                               577
+South Sudan                          549
+Democratic Republic of the Congo     461
+Angola                               434
+Zambia                               240
+Central African Republic             237
+Bolivia                              211
+Mozambique                           210
+Mexico                               156
+Chile                                143
+China                                121
+Philippines                           93
+Madagascar                            87
+Japan                                 77
+India                                 77
+United Republic of Tanzania           77
+Indonesia                             76
+Nigeria                               64
+South Africa                          59
+Spain                                 49
+Botswana                              49

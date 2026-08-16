@@ -1,0 +1,33 @@
+ML FEATURE PREPARATION REPORT
+======================================================================
+Number of regions: 383
+Number of final features: 13
+
+Final features:
+  - log_total_events
+  - log_events_per_active_year
+  - recent_event_share
+  - cat_drought_proportion
+  - cat_dust_and_haze_proportion
+  - cat_earthquakes_proportion
+  - cat_floods_proportion
+  - cat_landslides_proportion
+  - cat_sea_and_lake_ice_proportion
+  - cat_severe_storms_proportion
+  - cat_volcanoes_proportion
+  - cat_water_color_proportion
+  - cat_wildfires_proportion
+
+Removed zero-only features:
+  - cat_manmade_proportion
+  - cat_snow_proportion
+  - cat_temperature_extremes_proportion
+
+Removed constant features:
+  None
+
+Missing values after cleaning: 0
+Infinite values after cleaning: 0
+
+Standardization:
+StandardScaler applied to all final ML features.

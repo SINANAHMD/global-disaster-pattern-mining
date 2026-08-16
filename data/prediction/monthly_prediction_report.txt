@@ -1,0 +1,35 @@
+MONTHLY PREDICTION DATASET REPORT
+======================================================================
+Unique events with coordinates: 14,403
+Prediction rows: 41,527
+Regions: 317
+Time range: 2015-01 to 2025-11
+
+Target:
+next_month_event = 1 when at least one event occurs in the following month.
+
+Positive target rows: 3,049
+Negative target rows: 38,478
+Positive target rate: 7.34%
+
+Feature columns:
+ - region_id
+ - grid_lat
+ - grid_lon
+ - year
+ - month
+ - date
+ - current_event_count
+ - previous_month_events
+ - previous_3_month_events
+ - previous_6_month_events
+ - previous_12_month_events
+ - same_month_historical_events
+ - historical_total_events
+ - historical_active_months
+ - recent_activity_share
+ - month_sin
+ - month_cos
+ - years_since_2015
+ - next_month_event_count
+ - next_month_event

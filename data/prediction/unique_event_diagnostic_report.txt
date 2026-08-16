@@ -1,0 +1,56 @@
+UNIQUE EONET EVENT DIAGNOSTIC REPORT
+======================================================================
+Geometry observations: 35,766
+Unique events: 14,671
+Unique events with coordinates: 14,403
+Unique events without coordinates: 268
+Average geometry observations per event: 2.44
+Median geometry observations per event: 1.00
+Maximum geometry observations for one event: 136
+
+Unique events by year:
+ year  unique_events
+ 2015            342
+ 2016            427
+ 2017            621
+ 2018            617
+ 2019            465
+ 2020            588
+ 2021            712
+ 2022            322
+ 2023            238
+ 2024           5754
+ 2025           4585
+
+Top disaster categories by unique event:
+                       category  unique_event_count
+                      Wildfires               12360
+                  Severe Storms                1012
+                      Volcanoes                 551
+                         Floods                 496
+               Sea and Lake Ice                 152
+                    Water Color                  17
+                  Dust and Haze                  16
+                    Earthquakes                  15
+           Temperature Extremes                  14
+              Floods|Landslides                  12
+                        Drought                   7
+                        Manmade                   5
+                           Snow                   3
+                     Landslides                   2
+          Dust and Haze|Manmade                   1
+             Severe Storms|Snow                   1
+         Floods|Landslides|Snow                   1
+Floods|Severe Storms|Landslides                   1
+           Floods|Severe Storms                   1
+              Wildfires|Manmade                   1
+
+Geometry observations per unique event:
+count    14671.000000
+mean         2.437871
+std          6.689374
+min          1.000000
+25%          1.000000
+50%          1.000000
+75%          1.000000
+max        136.000000

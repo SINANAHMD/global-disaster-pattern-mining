@@ -1,0 +1,93 @@
+PREDICTION PROBABILITY VALIDATION REPORT
+======================================================================
+Validation rows: 3,487
+Actual positive rows: 732
+Actual positive rate: 20.99%
+
+Probability statistics:
+count    3487.000000
+mean        0.511834
+std         0.267530
+min         0.021800
+25%         0.288850
+50%         0.406900
+75%         0.726650
+max         1.000000
+
+Global probability metrics:
+ROC-AUC: 0.8112
+Brier score: 0.2236
+
+Extreme probability analysis:
+Rows >= 90%: 566
+Actual event rate among >= 90%: 62.19%
+Rows <= 10%: 5
+Actual event rate among <= 10%: 20.00%
+
+Calibration table:
+probability_bin  observations  average_predicted_probability  actual_event_rate  actual_events  calibration_error
+          0-10%             5                         0.0588             0.2000              1             0.1412
+         10-20%            41                         0.1800             0.1951              8             0.0151
+         20-30%           960                         0.2558             0.0479             46             0.2079
+         30-40%           700                         0.3440             0.0743             52             0.2697
+         40-50%           370                         0.4454             0.1459             54             0.2995
+         50-60%           270                         0.5470             0.1889             51             0.3581
+         60-70%           217                         0.6436             0.2258             49             0.4178
+         70-80%           189                         0.7480             0.2804             53             0.4676
+         80-90%           169                         0.8522             0.3905             66             0.4617
+        90-100%           566                         0.9773             0.6219            352             0.3554
+
+Top 20 predicted probabilities:
+    region_id  month  event_probability  next_month_event
+GRID_N00_E020      1                1.0                 1
+GRID_N00_E020      8                1.0                 0
+GRID_N00_E020      9                1.0                 0
+GRID_N00_E020     10                1.0                 1
+GRID_N00_E020     11                1.0                 1
+GRID_N00_E030      1                1.0                 1
+GRID_N00_E030      2                1.0                 1
+GRID_N00_E030     11                1.0                 1
+GRID_N10_E000     11                1.0                 1
+GRID_N10_E090      3                1.0                 0
+GRID_N20_E090      3                1.0                 1
+GRID_N20_W090      1                1.0                 1
+GRID_N20_W090      3                1.0                 1
+GRID_N20_W090      4                1.0                 1
+GRID_N20_W090      5                1.0                 1
+GRID_N20_W090      6                1.0                 1
+GRID_N20_W090      7                1.0                 1
+GRID_N20_W110      5                1.0                 1
+GRID_N30_W090      1                1.0                 1
+GRID_N30_W090      2                1.0                 1
+
+Bottom 20 predicted probabilities:
+    region_id  month  event_probability  next_month_event
+GRID_N40_W120     11             0.0218                 0
+GRID_S20_W060     11             0.0453                 0
+GRID_S20_E020     11             0.0621                 0
+GRID_N50_E110     10             0.0788                 0
+GRID_S10_E020     11             0.0862                 1
+GRID_S20_E010      1             0.1230                 0
+GRID_S20_E020      1             0.1328                 0
+GRID_N40_W130     11             0.1406                 1
+GRID_S20_E020     10             0.1418                 0
+GRID_S10_E020      9             0.1470                 1
+GRID_N50_E110      9             0.1499                 0
+GRID_N00_E020      5             0.1507                 0
+GRID_S10_E020     10             0.1616                 1
+GRID_S10_E010     10             0.1621                 1
+GRID_N50_E120     11             0.1631                 0
+GRID_S20_E030      1             0.1687                 0
+GRID_S80_W180      1             0.1759                 0
+GRID_S80_W170      1             0.1764                 0
+GRID_N00_E020      6             0.1777                 0
+GRID_S60_W070     11             0.1817                 1
+
+Interpretation:
+Probability values represent model-estimated likelihood of at least one EONET event occurring in the following month.
+
+Important limitation:
+These probabilities are statistical estimates based on historical EONET observations. They are not official warnings and should not be interpreted as certainty.
+
+Existing system:
+Existing K-Means clustering and dashboard logic were not modified.

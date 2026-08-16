@@ -1,0 +1,25 @@
+K-MEANS EXPERIMENT REPORT
+======================================================================
+Regions: 383
+Features: 13
+
+K evaluation:
+ k     inertia  silhouette_score
+ 2 4285.428807          0.273260
+ 3 3753.801276          0.322053
+ 4 3277.115383          0.345202
+ 5 2870.899994          0.391850
+ 6 2492.312458          0.391517
+ 7 2102.264660          0.398005
+ 8 1753.326571          0.438435
+ 9 1394.559832          0.468156
+10 1160.182201          0.468957
+
+Best silhouette K:
+10
+
+Best silhouette score:
+0.4690
+
+Important:
+The best silhouette K is not automatically the final K. The elbow curve and cluster interpretability must also be considered.

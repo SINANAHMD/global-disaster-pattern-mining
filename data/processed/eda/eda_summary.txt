@@ -1,0 +1,37 @@
+EDA SUMMARY
+======================================================================
+Event observations: 35,766
+Geographic regions: 383
+Regional mean event count: 92.68
+Regional median event count: 31.00
+Maximum regional event count: 1,144
+Minimum regional event count: 1
+
+Top 10 regions:
+    region_id  total_events
+GRID_N30_W120          1144
+GRID_N40_W120          1036
+GRID_N10_W120           811
+GRID_N10_W110           798
+GRID_S20_E130           658
+GRID_N10_E120           650
+GRID_N00_E020           645
+GRID_N20_E120           623
+GRID_N10_W130           599
+GRID_N40_W130           587
+
+Category totals:
+            category  events
+       Severe Storms   18962
+           Wildfires   12274
+    Sea And Lake Ice    3291
+           Volcanoes     530
+              Floods     419
+         Earthquakes      13
+          Landslides       5
+             Drought       3
+       Dust And Haze       2
+         Water Color       1
+             Manmade       0
+                Snow       0
+Temperature Extremes       0

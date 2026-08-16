@@ -1,0 +1,32 @@
+INDIA STATE MAPPING REPORT
+======================================================================
+Original EONET observations: 35,766
+Observations with coordinates: 35,497
+Observations inside India bounding box: 613
+Mapped to state/UT: 80
+Unmapped: 533
+State/UT boundaries: 36
+
+State event counts:
+                event_observations
+state_name                        
+Madhya Pradesh                  10
+Chhattīsgarh                     8
+Mahārāshtra                      8
+Andhra Pradesh                   7
+Mizoram                          7
+Odisha                           5
+Tamil Nādu                       5
+Gujarāt                          5
+Kerala                           4
+West Bengal                      4
+Karnātaka                        3
+Bihār                            3
+Meghālaya                        3
+Telangāna                        2
+Assam                            1
+Jhārkhand                        1
+Sikkim                           1
+Nāgāland                         1
+Tripura                          1
+Uttar Pradesh                    1

@@ -1,0 +1,88 @@
+======================================================================
+INDIA STATE PREDICTION DATASET REPORT
+======================================================================
+
+Total EONET geometry observations: 35766
+Total unique EONET events: 14671
+Valid geometry observations: 35497
+Unique events with coordinates: 14403
+
+Geometry observations intersecting Indian states: 80
+Unique events affecting India: 66
+State-event associations: 71
+States / UTs represented: 20
+Multi-state events: 2
+
+EVENTS PER STATE
+----------------------------------------------------------------------
+Madhya Pradesh: 10
+Chhattisgarh: 8
+Mizoram: 7
+Andhra Pradesh: 6
+Maharashtra: 4
+Odisha: 4
+Gujarat: 4
+Kerala: 4
+Tamil Nadu: 4
+Bihar: 3
+West Bengal: 3
+Karnataka: 3
+Meghalaya: 3
+Telangana: 2
+Assam: 1
+Jharkhand: 1
+Sikkim: 1
+Nagaland: 1
+Tripura: 1
+Uttar Pradesh: 1
+
+EVENTS PER YEAR
+----------------------------------------------------------------------
+2016: 1
+2018: 5
+2019: 1
+2020: 3
+2021: 2
+2022: 3
+2023: 2
+2024: 8
+2025: 41
+
+EVENTS BY CATEGORY
+----------------------------------------------------------------------
+Wildfires: 34
+Severe Storms: 27
+Floods: 9
+Floods|Landslides: 1
+
+MULTI-STATE EVENTS
+----------------------------------------------------------------------
+EONET_5938: Tropical Storm Shaheen-Gulab | 5 states | Andhra Pradesh, Chhattisgarh, Gujarat, Maharashtra, Telangana
+EONET_4034: Tropical Cyclone Gaja | 2 states | Kerala, Tamil Nadu
+
+PREDICTION DATASET
+----------------------------------------------------------------------
+Monthly rows: 2400
+Prediction rows: 2380
+Positive next-month events: 49
+Negative next-month events: 2331
+Positive rate: 2.06%
+
+DATASET SAFETY
+----------------------------------------------------------------------
+india_state_unique_events.csv contains ONLY mapped Indian state-event associations.
+Unmapped global EONET events are excluded.
+Events affecting multiple states retain one record per state-event pair.
+No nearest-state geographic assignment was used.
+Existing global EONET and K-Means datasets were not modified.
+Existing global prediction model was not modified.
+No machine-learning model was trained in this step.
+
+FILES CREATED
+----------------------------------------------------------------------
+data\prediction\india\india_state_unique_events.csv
+data\prediction\india\india_state_monthly_events.csv
+data\prediction\india\india_state_prediction_dataset.csv
+data\prediction\india\india_state_prediction_report.txt
+
+STATUS: SUCCESS

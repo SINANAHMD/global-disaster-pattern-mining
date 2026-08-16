@@ -1,0 +1,49 @@
+K-MEANS VALIDATION REPORT
+======================================================================
+
+Validation summary:
+ k  mean_silhouette  std_silhouette  mean_inertia
+ 8         0.442035        0.013174   1740.617307
+ 9         0.461828        0.009104   1413.683612
+10         0.469314        0.000200   1149.038724
+
+Cluster sizes:
+
+K = 8
+ k  cluster  region_count  percentage
+ 8        0            69   18.015666
+ 8        1           163   42.558747
+ 8        2            64   16.710183
+ 8        3             1    0.261097
+ 8        4             1    0.261097
+ 8        5            63   16.449086
+ 8        6             3    0.783290
+ 8        7            19    4.960836
+
+K = 9
+ k  cluster  region_count  percentage
+ 9        0            28    7.310705
+ 9        1            19    4.960836
+ 9        2           164   42.819843
+ 9        3            64   16.710183
+ 9        4           101   26.370757
+ 9        5             1    0.261097
+ 9        6             3    0.783290
+ 9        7             1    0.261097
+ 9        8             2    0.522193
+
+K = 10
+ k  cluster  region_count  percentage
+10        0            64   16.710183
+10        1           101   26.370757
+10        2           164   42.819843
+10        3            28    7.310705
+10        4             2    0.522193
+10        5             1    0.261097
+10        6            19    4.960836
+10        7             1    0.261097
+10        8             1    0.261097
+10        9             2    0.522193
+
+Interpretation note:
+K=10 has the highest silhouette in the initial experiment, but K=9 is extremely close. Final selection should consider silhouette, stability, cluster sizes, and interpretability.

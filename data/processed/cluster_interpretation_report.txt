@@ -1,0 +1,142 @@
+GLOBAL DISASTER / CLIMATE PATTERN MINING
+CLUSTER INTERPRETATION REPORT
+======================================================================
+Number of clusters: 9
+Number of regions: 383
+
+======================================================================
+CLUSTER 0
+Regions: 28
+Average total events: 10.61
+Average events per active year: 3.28
+Average recent events (2023-2025): 6.93
+
+Dominant categories:
+  - Floods: 64.44%
+  - Wildfires: 29.86%
+  - Severe Storms: 4.91%
+
+Interpretation:
+  Primarily Floods-associated regional event profile with secondary hazards.
+======================================================================
+CLUSTER 1
+Regions: 19
+Average total events: 20.16
+Average events per active year: 2.41
+Average recent events (2023-2025): 5.68
+
+Dominant categories:
+  - Volcanoes: 78.46%
+  - Severe Storms: 9.53%
+  - Floods: 6.60%
+
+Interpretation:
+  Volcanoes-dominant regional event profile.
+======================================================================
+CLUSTER 2
+Regions: 164
+Average total events: 115.51
+Average events per active year: 12.76
+Average recent events (2023-2025): 33.90
+
+Dominant categories:
+  - Severe Storms: 95.33%
+  - Wildfires: 2.31%
+  - Volcanoes: 1.22%
+
+Interpretation:
+  Severe Storms-dominant regional event profile.
+======================================================================
+CLUSTER 3
+Regions: 64
+Average total events: 51.44
+Average events per active year: 7.90
+Average recent events (2023-2025): 20.94
+
+Dominant categories:
+  - Sea and Lake Ice: 99.97%
+  - Volcanoes: 0.03%
+  - Drought: 0.00%
+
+Interpretation:
+  Sea and Lake Ice-dominant regional event profile.
+======================================================================
+CLUSTER 4
+Regions: 101
+Average total events: 124.44
+Average events per active year: 28.94
+Average recent events (2023-2025): 96.15
+
+Dominant categories:
+  - Wildfires: 92.95%
+  - Severe Storms: 3.67%
+  - Floods: 2.26%
+
+Interpretation:
+  Wildfires-dominant regional event profile.
+======================================================================
+CLUSTER 5
+Regions: 1
+Average total events: 1.00
+Average events per active year: 1.00
+Average recent events (2023-2025): 0.00
+
+Dominant categories:
+  - Dust and Haze: 100.00%
+  - Drought: 0.00%
+  - Earthquakes: 0.00%
+
+Interpretation:
+  Dust and Haze-dominant regional event profile.
+  Note: This is a very small cluster and should be interpreted as a rare/specialized profile.
+======================================================================
+CLUSTER 6
+Regions: 3
+Average total events: 1.33
+Average events per active year: 1.33
+Average recent events (2023-2025): 0.00
+
+Dominant categories:
+  - Earthquakes: 50.00%
+  - Landslides: 50.00%
+  - Floods: 33.33%
+
+Interpretation:
+  Primarily Earthquakes-associated regional event profile with secondary hazards.
+  Note: This is a very small cluster and should be interpreted as a rare/specialized profile.
+======================================================================
+CLUSTER 7
+Regions: 1
+Average total events: 1.00
+Average events per active year: 1.00
+Average recent events (2023-2025): 0.00
+
+Dominant categories:
+  - Water Color: 100.00%
+  - Drought: 0.00%
+  - Dust and Haze: 0.00%
+
+Interpretation:
+  Water Color-dominant regional event profile.
+  Note: This is a very small cluster and should be interpreted as a rare/specialized profile.
+======================================================================
+CLUSTER 8
+Regions: 2
+Average total events: 4.00
+Average events per active year: 1.38
+Average recent events (2023-2025): 2.00
+
+Dominant categories:
+  - Floods: 46.67%
+  - Drought: 26.67%
+  - Wildfires: 26.67%
+
+Interpretation:
+  Mixed multi-hazard regional event profile.
+  Note: This is a very small cluster and should be interpreted as a rare/specialized profile.
+
+======================================================================
+IMPORTANT INTERPRETATION NOTE
+Cluster numbers are identifiers and do not represent inherent risk levels.
+The analysis describes EONET event observation patterns rather than official disaster-risk scores.
+Event frequency should not be interpreted as direct evidence of population, economic, or infrastructure risk.

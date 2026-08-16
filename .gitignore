@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+
+# Frontend dependencies/build
+dashboard/node_modules/
+dashboard/dist/
+dashboard/build/
+
+# Frontend environment
+dashboard/.env
+dashboard/.env.*
+!dashboard/.env.example
+
+# Raw downloaded data
+data/raw/*.json
+data/raw/*.geojson
+
+# Large/generated processed datasets
+data/processed/*.csv
+
+# Trained model binaries
+models/*.joblib
+models/*.json
+
+# Generated prediction model binaries
+data/prediction/**/*.joblib
+
+# Python-generated temporary model files
+*.joblib.tmp
+# Raw downloaded datasets
+data/raw/*.json
+data/raw/*.geojson
+data/raw/*.csv
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment
+.env
+.env.*
+
+# Node
+node_modules/
+dashboard/dist/
+
+# Large datasets
+data/raw/
+data/processed/eonet_events_final.csv
+data/processed/eonet_events_with_country.csv
+data/processed/eonet_events_2015_2025_clean.csv
+
+# Large prediction datasets
+data/prediction/monthly_prediction_dataset.csv
+data/prediction/unique_event_diagnostic.csv
+data/prediction/boundaries/india_adm1.geojson
+
+# Model binaries
+*.joblib
+dashboard/public/world-countries.json

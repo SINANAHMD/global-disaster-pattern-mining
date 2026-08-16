@@ -1,0 +1,40 @@
+PREDICTION MODEL COMPARISON REPORT
+======================================================================
+Target: next_month_event
+0 = no event in following month
+1 = at least one event in following month
+
+Temporal split:
+Training: 2015-2022
+Validation: 2023-2024
+Test: 2025
+
+Excluded columns:
+ - region_id
+ - date
+ - next_month_event_count
+ - next_month_event
+
+Reason for excluding next_month_event_count:
+It contains information from the prediction month and would cause data leakage.
+
+Model comparison:
+              model    dataset  accuracy  precision   recall       f1  roc_auc   pr_auc
+Logistic Regression      train  0.845557   0.199644 0.608067 0.300595 0.802752 0.334673
+Logistic Regression validation  0.819795   0.276423 0.673780 0.392018 0.800106 0.491778
+Logistic Regression       test  0.741898   0.430464 0.710383 0.536082 0.797825 0.595991
+      Random Forest      train  0.907137   0.356492 0.871162 0.505944 0.965548 0.777293
+      Random Forest validation  0.868034   0.324242 0.489329 0.390036 0.779580 0.346447
+      Random Forest       test  0.799541   0.520860 0.562842 0.541037 0.807073 0.582593
+  Gradient Boosting      train  0.953306   0.817460 0.186033 0.303090 0.847285 0.431587
+  Gradient Boosting validation  0.924685   0.774834 0.178354 0.289963 0.818169 0.469407
+  Gradient Boosting       test  0.831947   0.831818 0.250000 0.384454 0.830953 0.635455
+
+Best validation model:
+Logistic Regression
+
+Model selection metric:
+PR-AUC was used as the primary selection metric because the positive class represents only a minority of observations.
+
+Important limitation:
+The EONET dataset shows substantial changes in event reporting volume across years, particularly in 2024-2025. Model predictions should therefore be interpreted as historical activity-based estimates, not guaranteed disaster forecasts.

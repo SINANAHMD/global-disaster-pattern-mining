@@ -1,0 +1,83 @@
+FINAL CALIBRATED PREDICTION MODEL REPORT
+======================================================================
+Model: StandardScaler + Logistic Regression + Sigmoid (Platt) Calibration
+Training period: 2015-2024
+Test period: 2025
+Training rows: 38,040
+Test rows: 3,487
+Features: 16
+
+RAW SCALED LOGISTIC REGRESSION:
+accuracy: 0.7129
+precision: 0.4047
+recall: 0.7801
+f1: 0.5329
+roc_auc: 0.8117
+brier_score: 0.2236
+
+CALIBRATED MODEL:
+accuracy: 0.8342
+precision: 0.7377
+recall: 0.3265
+f1: 0.4527
+roc_auc: 0.8107
+brier_score: 0.1319
+
+PROBABILITY DISTRIBUTION:
+Raw minimum: 0.0218
+Raw maximum: 1.0000
+Raw average: 0.5118
+Calibrated minimum: 0.0090
+Calibrated maximum: 1.0000
+Calibrated average: 0.1510
+
+EXTREME PROBABILITIES:
+Raw >= 90%: 566
+Calibrated >= 90%: 177
+Raw <= 10%: 5
+Calibrated <= 10%: 2,551
+
+CALIBRATION TABLE:
+probability_bin  observations  average_predicted_probability  actual_event_rate  actual_events  calibration_error
+          0-10%          2551                       0.046462           0.100353            256           0.053891
+         10-20%           344                       0.136980           0.319767            110           0.182787
+         20-30%           143                       0.242976           0.433566             62           0.190590
+         30-40%            78                       0.345542           0.500000             39           0.154458
+         40-50%            47                       0.452394           0.553191             26           0.100798
+         50-60%            38                       0.546313           0.552632             21           0.006319
+         60-70%            38                       0.655294           0.605263             23           0.050031
+         70-80%            33                       0.751140           0.636364             21           0.114776
+         80-90%            38                       0.849890           0.842105             32           0.007785
+        90-100%           177                       0.988919           0.802260            142           0.186659
+
+TOP 20 CALIBRATED PREDICTIONS:
+    region_id  month  calibrated_probability_percent activity_level  actual_next_month_event
+GRID_N00_E020      1                           100.0      VERY HIGH                        1
+GRID_N00_E020     11                           100.0      VERY HIGH                        1
+GRID_N30_W100      3                           100.0      VERY HIGH                        1
+GRID_N50_E110      5                           100.0      VERY HIGH                        1
+GRID_N30_W120      6                           100.0      VERY HIGH                        1
+GRID_S20_E020      8                           100.0      VERY HIGH                        1
+GRID_S20_E130      8                           100.0      VERY HIGH                        1
+GRID_N30_W120      5                           100.0      VERY HIGH                        1
+GRID_S20_E130      6                           100.0      VERY HIGH                        1
+GRID_N40_W120      7                           100.0      VERY HIGH                        1
+GRID_S20_E130      7                           100.0      VERY HIGH                        1
+GRID_N30_W100      4                           100.0      VERY HIGH                        1
+GRID_N50_W110      7                           100.0      VERY HIGH                        1
+GRID_S10_E020      7                           100.0      VERY HIGH                        1
+GRID_S20_W050      9                           100.0      VERY HIGH                        1
+GRID_N40_W120      8                           100.0      VERY HIGH                        1
+GRID_N30_W120      4                           100.0      VERY HIGH                        1
+GRID_S20_E130      5                           100.0      VERY HIGH                        1
+GRID_N30_W120      3                           100.0      VERY HIGH                        1
+GRID_N30_W120      2                           100.0      VERY HIGH                        1
+
+INTERPRETATION:
+The calibrated probability represents the model's estimated likelihood of at least one EONET event occurring in the following month for a given geographic grid region.
+
+IMPORTANT LIMITATION:
+These are statistical estimates derived from historical NASA EONET observations. They are not official disaster warnings, emergency alerts, or guarantees of future events.
+
+SYSTEM SAFETY:
+Existing K-Means clustering, regional clustering files, original EONET data, FastAPI backend, and existing dashboard logic were not modified.

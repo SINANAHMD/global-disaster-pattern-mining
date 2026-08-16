@@ -1,0 +1,68 @@
+CALIBRATED PREDICTION MODEL REPORT
+======================================================================
+Model: Logistic Regression + Sigmoid Calibration
+Training period: 2015-2024
+Test period: 2025
+Training rows: 38,040
+Test rows: 3,487
+Number of features: 16
+
+RAW MODEL METRICS:
+accuracy: 0.7184
+precision: 0.4098
+recall: 0.7760
+f1: 0.5364
+roc_auc: 0.8120
+brier_score: 0.2225
+
+CALIBRATED MODEL METRICS:
+accuracy: 0.8334
+precision: 0.7352
+recall: 0.3224
+f1: 0.4482
+roc_auc: 0.8109
+brier_score: 0.1321
+
+PROBABILITY RANGE:
+Raw minimum: 0.0208
+Raw maximum: 1.0000
+Calibrated minimum: 0.0082
+Calibrated maximum: 1.0000
+
+EXTREME PROBABILITIES:
+Raw >= 90%: 571
+Calibrated >= 90%: 177
+Raw <= 10%: 5
+Calibrated <= 10%: 2,567
+
+TOP 20 CALIBRATED PREDICTIONS:
+    region_id  month  calibrated_probability_percent activity_level  actual_next_month_event
+GRID_N00_E020      1                           100.0      VERY HIGH                        1
+GRID_N00_E020     11                           100.0      VERY HIGH                        1
+GRID_N30_W100      3                           100.0      VERY HIGH                        1
+GRID_N50_E110      5                           100.0      VERY HIGH                        1
+GRID_N30_W120      6                           100.0      VERY HIGH                        1
+GRID_N30_W120      5                           100.0      VERY HIGH                        1
+GRID_S20_E130      8                           100.0      VERY HIGH                        1
+GRID_S20_E020      8                           100.0      VERY HIGH                        1
+GRID_S20_E130      6                           100.0      VERY HIGH                        1
+GRID_N40_W120      7                           100.0      VERY HIGH                        1
+GRID_S20_E130      7                           100.0      VERY HIGH                        1
+GRID_S10_E020      7                           100.0      VERY HIGH                        1
+GRID_N30_W100      4                           100.0      VERY HIGH                        1
+GRID_N30_W120      4                           100.0      VERY HIGH                        1
+GRID_N50_W110      7                           100.0      VERY HIGH                        1
+GRID_S20_W050      9                           100.0      VERY HIGH                        1
+GRID_N40_W120      8                           100.0      VERY HIGH                        1
+GRID_N30_W120      3                           100.0      VERY HIGH                        1
+GRID_N30_W120      2                           100.0      VERY HIGH                        1
+GRID_S20_E130      5                           100.0      VERY HIGH                        1
+
+INTERPRETATION:
+Calibration adjusts the raw model probabilities so that probability values better correspond to observed event frequencies.
+
+IMPORTANT LIMITATION:
+The prediction represents a statistical estimate of the likelihood of at least one EONET event in the following month. It is not an official disaster warning, forecast, or certainty.
+
+SYSTEM SAFETY:
+Existing K-Means clustering, existing prediction dataset, backend API, and dashboard logic were not modified.

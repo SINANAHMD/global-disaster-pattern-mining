@@ -1,0 +1,70 @@
+REGIONAL FEATURE ENGINEERING REPORT
+======================================================================
+Grid size: 10° x 10°
+Coordinate observations used: 35,497
+Number of active regions: 383
+Number of category features: 13
+
+Top regions by event count:
+    region_id  total_events
+GRID_N30_W120          1144
+GRID_N40_W120          1036
+GRID_N10_W120           811
+GRID_N10_W110           798
+GRID_S20_E130           658
+GRID_N10_E120           650
+GRID_N00_E020           645
+GRID_N20_E120           623
+GRID_N10_W130           599
+GRID_N40_W130           587
+GRID_N10_E130           530
+GRID_N10_E110           512
+GRID_N30_W100           502
+GRID_S20_E120           488
+GRID_N30_W110           481
+GRID_S70_W060           466
+GRID_N30_W130           458
+GRID_N20_E130           457
+GRID_N10_E140           403
+GRID_N20_E140           389
+
+Regional feature columns:
+region_id
+total_events
+region_latitude
+region_longitude
+first_event_year
+last_event_year
+active_years
+events_per_active_year
+cat_drought
+cat_dust_and_haze
+cat_earthquakes
+cat_floods
+cat_landslides
+cat_manmade
+cat_sea_and_lake_ice
+cat_severe_storms
+cat_snow
+cat_temperature_extremes
+cat_volcanoes
+cat_water_color
+cat_wildfires
+cat_drought_proportion
+cat_dust_and_haze_proportion
+cat_earthquakes_proportion
+cat_floods_proportion
+cat_landslides_proportion
+cat_manmade_proportion
+cat_sea_and_lake_ice_proportion
+cat_severe_storms_proportion
+cat_snow_proportion
+cat_temperature_extremes_proportion
+cat_volcanoes_proportion
+cat_water_color_proportion
+cat_wildfires_proportion
+events_2023_2025
+magnitude_observations
+magnitude_mean
+magnitude_median
+magnitude_max

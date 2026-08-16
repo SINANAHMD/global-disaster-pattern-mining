@@ -1,0 +1,60 @@
+NASA EONET DATA QUALITY REPORT
+============================================================
+Raw event objects: 14,695
+Rows after geometry expansion: 36,443
+Rows after date filtering: 35,766
+Rows removed outside 2015-2025: 677
+Duplicate geometry rows removed: 0
+Rows with coordinates: 35,497
+Rows without coordinates: 269
+Final columns: 23
+Final date range: 2015-01-01 00:00:00+00:00 to 2025-12-31 20:00:00+00:00
+
+Missing values:
+magnitude_description    35766
+description              34204
+magnitude_value          17797
+magnitude_unit           17797
+closed                    6072
+latitude                   269
+longitude                  267
+source_ids                   0
+categories                   0
+category_ids                 0
+title                        0
+event_id                     0
+geometry_type                0
+source_urls                  0
+event_date                   0
+source_names                 0
+source_count                 0
+geometry_count               0
+event_link                   0
+year                         0
+month                        0
+month_name                   0
+has_coordinates              0
+
+
+Top categories:
+categories
+Severe Storms                      18967
+Wildfires                          12360
+Sea and Lake Ice                    3292
+Volcanoes                            551
+Floods                               496
+Water Color                           17
+Dust and Haze                         16
+Earthquakes                           15
+Temperature Extremes                  14
+Floods|Landslides                     12
+Drought                                7
+Manmade                                5
+Snow                                   3
+Landslides                             2
+Dust and Haze|Manmade                  1
+Severe Storms|Snow                     1
+Floods|Landslides|Snow                 1
+Floods|Severe Storms|Landslides        1
+Floods|Severe Storms                   1
+Wildfires|Manmade                      1

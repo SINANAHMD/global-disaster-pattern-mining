@@ -1,0 +1,74 @@
+======================================================================
+INDIA STATE-LEVEL PREDICTION MODEL EVALUATION REPORT
+======================================================================
+Dataset Size: 2380 rows
+Represented Indian States: 20
+Positive Examples: 49 (2.06%)
+Negative Examples: 2331 (97.94%)
+
+CHRONOLOGICAL DATA SPLIT:
+  - Train (2016–2022): 1680 rows (Positive: 20)
+  - Validation (2023–2024): 480 rows (Positive: 8)
+  - Test (2025): 220 rows (Positive: 21) [Untouched until evaluation]
+
+FEATURES USED (12):
+  - current_event_count, previous_month_events, previous_3_month_events
+  - previous_6_month_events, previous_12_month_events, same_month_historical_events
+  - historical_total_events, historical_active_months, recent_activity_share
+  - month_sin, month_cos, years_since_2015
+
+======================================================================
+MODEL COMPARISON SUMMARY (TEST PERIOD 2025):
+======================================================================
+  - Gradient Boosting: PR-AUC=0.2412 | F1=0.1667 | Brier=0.0914 | ROC-AUC=0.6719 | Prec=0.6667 | Rec=0.0952 | Acc=0.9091
+  - Random Forest: PR-AUC=0.1360 | F1=0.0541 | Brier=0.1308 | ROC-AUC=0.5930 | Prec=0.0625 | Rec=0.0476 | Acc=0.8409
+  - Logistic Regression: PR-AUC=0.1099 | F1=0.1333 | Brier=0.2957 | ROC-AUC=0.5169 | Prec=0.0833 | Rec=0.3333 | Acc=0.5864
+
+======================================================================
+BEST CANDIDATE MODEL: Gradient Boosting
+======================================================================
+Validation PR-AUC: 0.1155
+Test PR-AUC: 0.2412
+Test F1 (0.50): 0.1667
+Test Brier Score: 0.0914
+Test ROC-AUC: 0.6719
+
+THRESHOLD ANALYSIS FOR BEST MODEL (TEST 2025):
+  - Threshold 0.20 -> Acc: 0.8955 | Prec: 0.3333 | Rec: 0.0952 | F1: 0.1481 | Pos Preds: 6/220
+  - Threshold 0.30 -> Acc: 0.9000 | Prec: 0.4000 | Rec: 0.0952 | F1: 0.1538 | Pos Preds: 5/220
+  - Threshold 0.40 -> Acc: 0.9045 | Prec: 0.5000 | Rec: 0.0952 | F1: 0.1600 | Pos Preds: 4/220
+  - Threshold 0.50 -> Acc: 0.9091 | Prec: 0.6667 | Rec: 0.0952 | F1: 0.1667 | Pos Preds: 3/220
+
+======================================================================
+STATE-LEVEL TEST RESULTS (2025 TEST PERIOD):
+======================================================================
+  - Bihar: Actual=2 | Pred (50%)=1 | Pred (20%)=1 | Avg Prob=0.0832 | Max Prob=0.9034
+  - Karnataka: Actual=2 | Pred (50%)=0 | Pred (20%)=0 | Avg Prob=0.0025 | Max Prob=0.0099
+  - Maharashtra: Actual=2 | Pred (50%)=0 | Pred (20%)=0 | Avg Prob=0.0024 | Max Prob=0.0209
+  - Andhra Pradesh: Actual=1 | Pred (50%)=0 | Pred (20%)=1 | Avg Prob=0.0507 | Max Prob=0.2563
+  - Chhattisgarh: Actual=1 | Pred (50%)=0 | Pred (20%)=0 | Avg Prob=0.0046 | Max Prob=0.0158
+  - Assam: Actual=1 | Pred (50%)=0 | Pred (20%)=0 | Avg Prob=0.0005 | Max Prob=0.0032
+  - Jharkhand: Actual=1 | Pred (50%)=0 | Pred (20%)=0 | Avg Prob=0.0024 | Max Prob=0.0217
+  - Gujarat: Actual=1 | Pred (50%)=0 | Pred (20%)=0 | Avg Prob=0.0049 | Max Prob=0.0307
+  - Kerala: Actual=1 | Pred (50%)=0 | Pred (20%)=0 | Avg Prob=0.0090 | Max Prob=0.0912
+  - Madhya Pradesh: Actual=1 | Pred (50%)=0 | Pred (20%)=0 | Avg Prob=0.0007 | Max Prob=0.0023
+  - Meghalaya: Actual=1 | Pred (50%)=0 | Pred (20%)=0 | Avg Prob=0.0020 | Max Prob=0.0151
+  - Mizoram: Actual=1 | Pred (50%)=0 | Pred (20%)=0 | Avg Prob=0.0012 | Max Prob=0.0071
+  - Nagaland: Actual=1 | Pred (50%)=0 | Pred (20%)=0 | Avg Prob=0.0024 | Max Prob=0.0217
+  - Odisha: Actual=1 | Pred (50%)=0 | Pred (20%)=0 | Avg Prob=0.0094 | Max Prob=0.0964
+  - Sikkim: Actual=1 | Pred (50%)=0 | Pred (20%)=0 | Avg Prob=0.0006 | Max Prob=0.0032
+  - Telangana: Actual=1 | Pred (50%)=0 | Pred (20%)=0 | Avg Prob=0.0074 | Max Prob=0.0762
+  - Uttar Pradesh: Actual=1 | Pred (50%)=1 | Pred (20%)=1 | Avg Prob=0.0832 | Max Prob=0.9034
+  - Tripura: Actual=1 | Pred (50%)=0 | Pred (20%)=0 | Avg Prob=0.0005 | Max Prob=0.0032
+  - Tamil Nadu: Actual=0 | Pred (50%)=0 | Pred (20%)=0 | Avg Prob=0.0166 | Max Prob=0.1778
+  - West Bengal: Actual=0 | Pred (50%)=1 | Pred (20%)=3 | Avg Prob=0.1538 | Max Prob=0.8621
+
+======================================================================
+MANDATORY SCIENTIFIC & SAFETY LIMITATIONS
+======================================================================
+1. Class Imbalance Limitation: Only 49 positive event-month records exist across 2,380 total state-month observations (2.06%). Models operate in an extreme low-sample regime.
+2. Statistical Nature: Predicted probabilities represent calculated statistical likelihoods derived from historical EONET telemetry.
+3. Disclaimer: This output is NOT an official disaster warning, real-time emergency alert, or government forecast.
+
+RECOMMENDATION FOR DASHBOARD INTEGRATION:
+Utilize the calibrated Gradient Boosting probabilities with educational tooltips, probability bands (Very High, High, Moderate, Low, Very Low), and non-alarming safety disclaimers.

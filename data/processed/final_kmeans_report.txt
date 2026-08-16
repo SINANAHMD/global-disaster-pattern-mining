@@ -1,0 +1,44 @@
+FINAL K-MEANS MODEL REPORT
+======================================================================
+Final K: 9
+Number of regions: 383
+Number of ML features: 13
+Inertia: 1394.5598
+Silhouette score: 0.4682
+
+Model configuration:
+Random state: 42
+n_init: 20
+
+Cluster sizes:
+ cluster  region_count  total_events_sum  average_events  median_events  average_events_per_active_year  average_recent_events  region_percentage
+       0            28               297       10.607143            6.0                        3.279762               6.928571           7.310705
+       1            19               383       20.157895           17.0                        2.406630               5.684211           4.960836
+       2           164             18943      115.506098           59.5                       12.762209              33.902439          42.819843
+       3            64              3292       51.437500           30.5                        7.903869              20.937500          16.710183
+       4           101             12568      124.435644           34.0                       28.943292              96.148515          26.370757
+       5             1                 1        1.000000            1.0                        1.000000               0.000000           0.261097
+       6             3                 4        1.333333            1.0                        1.333333               0.000000           0.783290
+       7             1                 1        1.000000            1.0                        1.000000               0.000000           0.261097
+       8             2                 8        4.000000            4.0                        1.375000               2.000000           0.522193
+
+Category profiles:
+ cluster  cat_drought_proportion  cat_dust_and_haze_proportion  cat_earthquakes_proportion  cat_floods_proportion  cat_landslides_proportion  cat_sea_and_lake_ice_proportion  cat_severe_storms_proportion  cat_volcanoes_proportion  cat_water_color_proportion  cat_wildfires_proportion
+       0                0.000000                      0.003571                    0.004365               0.644380                   0.000000                         0.000000                      0.049107                  0.000000                         0.0                  0.298577
+       1                0.002632                      0.000000                    0.002879               0.065985                   0.000000                         0.000000                      0.095346                  0.784634                         0.0                  0.048526
+       2                0.000000                      0.000000                    0.000495               0.010492                   0.000189                         0.000277                      0.953342                  0.012245                         0.0                  0.023149
+       3                0.000000                      0.000000                    0.000000               0.000000                   0.000000                         0.999681                      0.000000                  0.000319                         0.0                  0.000000
+       4                0.000000                      0.000000                    0.000187               0.022589                   0.000055                         0.000000                      0.036732                  0.010969                         0.0                  0.929469
+       5                0.000000                      1.000000                    0.000000               0.000000                   0.000000                         0.000000                      0.000000                  0.000000                         0.0                  0.000000
+       6                0.000000                      0.000000                    0.500000               0.333333                   0.500000                         0.000000                      0.000000                  0.000000                         0.0                  0.000000
+       7                0.000000                      0.000000                    0.000000               0.000000                   0.000000                         0.000000                      0.000000                  0.000000                         1.0                  0.000000
+       8                0.266667                      0.000000                    0.000000               0.466667                   0.000000                         0.000000                      0.000000                  0.000000                         0.0                  0.266667
+
+Interpretation:
+Cluster labels are numerical identifiers.
+They do not inherently represent low, medium, or high risk.
+Cluster meanings must be determined from the observed disaster-event profiles.
+
+Final model selection:
+K=9 was selected after comparing K=8, K=9 and K=10 using silhouette score, cluster stability and cluster-size interpretability.
+K=9 provided a strong silhouette score and high stability while avoiding the excessive fragmentation observed with K=10.

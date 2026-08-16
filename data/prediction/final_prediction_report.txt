@@ -1,0 +1,83 @@
+FINAL PREDICTION MODEL REPORT
+======================================================================
+Model: Logistic Regression
+Target: next_month_event
+0 = no EONET event in following month
+1 = at least one EONET event in following month
+
+Training period:
+2015-2024
+
+Test period:
+2025
+
+Training rows: 38,040
+Test rows: 3,487
+Actual positive test rows: 732
+Predicted positive test rows: 1,411
+Average predicted probability: 0.5118
+Minimum predicted probability: 0.0218
+Maximum predicted probability: 1.0000
+
+Features:
+ - grid_lat
+ - grid_lon
+ - year
+ - month
+ - current_event_count
+ - previous_month_events
+ - previous_3_month_events
+ - previous_6_month_events
+ - previous_12_month_events
+ - same_month_historical_events
+ - historical_total_events
+ - historical_active_months
+ - recent_activity_share
+ - month_sin
+ - month_cos
+ - years_since_2015
+
+Excluded:
+ - region_id
+ - date
+ - next_month_event_count
+ - next_month_event
+
+Activity-level interpretation:
+LOW       = probability below 20%
+MODERATE  = probability 20-39.99%
+ELEVATED  = probability 40-59.99%
+HIGH      = probability 60-79.99%
+VERY HIGH = probability 80% or above
+
+Important:
+These activity levels are analytical categories created for dashboard interpretation. They are not official disaster warnings.
+
+Top 20 probability scores:
+    region_id  month  event_probability_percent activity_level
+GRID_N00_E020      1                      100.0      VERY HIGH
+GRID_N00_E020      8                      100.0      VERY HIGH
+GRID_N00_E020      9                      100.0      VERY HIGH
+GRID_N00_E020     10                      100.0      VERY HIGH
+GRID_N00_E020     11                      100.0      VERY HIGH
+GRID_N00_E030      1                      100.0      VERY HIGH
+GRID_N00_E030      2                      100.0      VERY HIGH
+GRID_N00_E030     11                      100.0      VERY HIGH
+GRID_N10_E000     11                      100.0      VERY HIGH
+GRID_N10_E090      3                      100.0      VERY HIGH
+GRID_N20_E090      3                      100.0      VERY HIGH
+GRID_N20_W090      1                      100.0      VERY HIGH
+GRID_N20_W090      3                      100.0      VERY HIGH
+GRID_N20_W090      4                      100.0      VERY HIGH
+GRID_N20_W090      5                      100.0      VERY HIGH
+GRID_N20_W090      6                      100.0      VERY HIGH
+GRID_N20_W090      7                      100.0      VERY HIGH
+GRID_N20_W110      5                      100.0      VERY HIGH
+GRID_N30_W090      1                      100.0      VERY HIGH
+GRID_N30_W090      2                      100.0      VERY HIGH
+
+Limitation:
+The model estimates historical EONET event activity. It does not establish causation or guarantee that a disaster will occur.
+
+Existing system:
+Existing K-Means clustering, regional features, FastAPI backend, and React dashboard were not modified.

@@ -1,0 +1,72 @@
+event_id,title,categories,event_date,year,month,latitude,longitude,state_name_raw,state_name,geometry_mapping_status
+EONET_4005,Tropical Cyclone Titli,Severe Storms,2018-10-11 00:00:00+00:00,2018,10,18.9,84.5,Andhra Pradesh,Andhra Pradesh,mapped
+EONET_4052,Tropical Cyclone Phethai,Severe Storms,2018-12-17 12:00:00+00:00,2018,12,17.3,82.3,Andhra Pradesh,Andhra Pradesh,mapped
+EONET_5938,Tropical Storm Shaheen-Gulab,Severe Storms,2021-09-26 18:00:00+00:00,2021,9,18.15,82.8,Andhra Pradesh,Andhra Pradesh,mapped
+EONET_6055,Tropical Cyclone Asani,Severe Storms,2022-05-11 12:00:00+00:00,2022,5,16.0,81.0,Andhra Pradesh,Andhra Pradesh,mapped
+EONET_6457,Tropical Cyclone Michaung,Severe Storms,2023-12-04 18:00:00+00:00,2023,12,14.3,80.1,Andhra Pradesh,Andhra Pradesh,mapped
+EONET_15825,Tropical Cyclone Montha,Severe Storms,2025-10-29 00:00:00+00:00,2025,10,16.9,81.4,Andhra Pradesh,Andhra Pradesh,mapped
+EONET_13038,Wildfire in India 1023613,Wildfires,2025-03-15 19:00:00+00:00,2025,3,25.77019,91.199234,Assam,Assam,mapped
+EONET_16243,Wildfire in India 1026109,Wildfires,2025-11-28 19:00:00+00:00,2025,11,25.157945,84.034515,Bihār,Bihar,mapped
+EONET_16284,Wildfire in India 1026126,Wildfires,2025-11-25 19:00:00+00:00,2025,11,25.083209,83.892871,Bihār,Bihar,mapped
+EONET_16482,Wildfire in India 1026302,Wildfires,2025-12-02 19:00:00+00:00,2025,12,25.213801,83.875651,Bihār,Bihar,mapped
+EONET_5938,Tropical Storm Shaheen-Gulab,Severe Storms,2021-09-27 06:00:00+00:00,2021,9,18.2,81.1,Chhattīsgarh,Chhattisgarh,mapped
+EONET_16402,Wildfire in India 1026220,Wildfires,2025-12-06 19:00:00+00:00,2025,12,20.923641,81.971588,Chhattīsgarh,Chhattisgarh,mapped
+EONET_16429,Wildfire in India 1026257,Wildfires,2025-12-08 19:00:00+00:00,2025,12,20.801076,81.884248,Chhattīsgarh,Chhattisgarh,mapped
+EONET_16479,Wildfire in India 1026300,Wildfires,2025-12-06 19:00:00+00:00,2025,12,20.80399,81.865786,Chhattīsgarh,Chhattisgarh,mapped
+EONET_16480,Wildfire in India 1026301,Wildfires,2025-12-05 19:00:00+00:00,2025,12,21.159144,82.364909,Chhattīsgarh,Chhattisgarh,mapped
+EONET_16646,Wildfire in India 1026453,Wildfires,2025-12-14 19:00:00+00:00,2025,12,21.893811,82.653862,Chhattīsgarh,Chhattisgarh,mapped
+EONET_16656,Wildfire in India 1026463,Wildfires,2025-12-11 19:00:00+00:00,2025,12,21.250578,82.807442,Chhattīsgarh,Chhattisgarh,mapped
+EONET_16757,Wildfire in India 1026553,Wildfires,2025-12-20 19:00:00+00:00,2025,12,21.89982,82.519839,Chhattīsgarh,Chhattisgarh,mapped
+EONET_5938,Tropical Storm Shaheen-Gulab,Severe Storms,2021-09-29 00:00:00+00:00,2021,9,21.8,73.35,Gujarāt,Gujarat,mapped
+EONET_6366,Tropical Cyclone Biparyjoy,Severe Storms,2023-06-15 18:00:00+00:00,2023,6,23.4,68.7,Gujarāt,Gujarat,mapped
+EONET_10659,Tropical Cyclone Asna,Severe Storms,2024-08-29 18:00:00+00:00,2024,8,23.6,68.7,Gujarāt,Gujarat,mapped
+EONET_13950,Flood in India 1103334,Floods,2025-06-15 20:00:00+00:00,2025,6,22.04671,71.668962,Gujarāt,Gujarat,mapped
+EONET_14524,Flood in India 1103414,Floods,2025-07-25 20:00:00+00:00,2025,7,22.801519,86.202958,Jhārkhand,Jharkhand,mapped
+EONET_3916,"Karnataka, India Floods and Landslides",Floods|Landslides,2018-08-14 00:00:00+00:00,2018,8,12.945676,75.498047,Karnātaka,Karnataka,mapped
+EONET_13641,Flood in India 1103280,Floods,2025-05-17 20:00:00+00:00,2025,5,12.976794,77.590082,Karnātaka,Karnataka,mapped
+EONET_16178,Wildfire in India 1026045,Wildfires,2025-11-24 19:00:00+00:00,2025,11,16.587589,76.531975,Karnātaka,Karnataka,mapped
+EONET_3877,"Kerala, India Flood",Floods,2018-08-16 00:00:00+00:00,2018,8,9.882275,76.508789,Kerala,Kerala,mapped
+EONET_4034,Tropical Cyclone Gaja,Severe Storms,2018-11-16 12:00:00+00:00,2018,11,9.7,76.5,Kerala,Kerala,mapped
+EONET_11448,Tropical Cyclone Ancha,Severe Storms,2024-10-01 06:00:00+00:00,2024,10,9.6,76.9,Kerala,Kerala,mapped
+EONET_15821,Flood in India 1103571,Floods,2025-10-16 20:00:00+00:00,2025,10,9.815478,76.99916,Kerala,Kerala,mapped
+EONET_11971,Wildfire in India 1022937,Wildfires,2024-11-07 19:00:00+00:00,2024,11,25.571185,76.708901,Madhya Pradesh,Madhya Pradesh,mapped
+EONET_12013,Wildfire in India 1022967,Wildfires,2024-11-07 19:00:00+00:00,2024,11,25.785872,76.640743,Madhya Pradesh,Madhya Pradesh,mapped
+EONET_12017,Wildfire in India 1022974,Wildfires,2024-11-07 19:00:00+00:00,2024,11,25.780201,76.622172,Madhya Pradesh,Madhya Pradesh,mapped
+EONET_15957,Wildfire in India 1025339,Wildfires,2025-11-09 19:00:00+00:00,2025,11,25.765291,76.721311,Madhya Pradesh,Madhya Pradesh,mapped
+EONET_15965,Wildfire in India 1025367,Wildfires,2025-11-07 19:00:00+00:00,2025,11,25.533887,76.673971,Madhya Pradesh,Madhya Pradesh,mapped
+EONET_15966,Wildfire in India 1025376,Wildfires,2025-11-07 19:00:00+00:00,2025,11,26.05461,78.741752,Madhya Pradesh,Madhya Pradesh,mapped
+EONET_15967,Wildfire in India 1025378,Wildfires,2025-11-07 19:00:00+00:00,2025,11,22.661666,77.778478,Madhya Pradesh,Madhya Pradesh,mapped
+EONET_15970,Wildfire in India 1025388,Wildfires,2025-11-06 19:00:00+00:00,2025,11,25.968535,78.807994,Madhya Pradesh,Madhya Pradesh,mapped
+EONET_15971,Wildfire in India 1025404,Wildfires,2025-11-05 19:00:00+00:00,2025,11,22.772809,77.877338,Madhya Pradesh,Madhya Pradesh,mapped
+EONET_15978,Wildfire in India 1025477,Wildfires,2025-11-02 19:00:00+00:00,2025,11,22.283192,79.789189,Madhya Pradesh,Madhya Pradesh,mapped
+EONET_4670,Tropical Cyclone Nisarga,Severe Storms,2020-06-03 12:00:00+00:00,2020,6,19.1,73.7,Mahārāshtra,Maharashtra,mapped
+EONET_5938,Tropical Storm Shaheen-Gulab,Severe Storms,2021-09-27 12:00:00+00:00,2021,9,20.0,77.48,Mahārāshtra,Maharashtra,mapped
+EONET_12863,Wildfire in India 1023571,Wildfires,2025-02-28 19:00:00+00:00,2025,2,19.184717,79.993173,Mahārāshtra,Maharashtra,mapped
+EONET_14844,Flood in India 1103434,Floods,2025-08-15 20:00:00+00:00,2025,8,19.11148,72.928021,Mahārāshtra,Maharashtra,mapped
+EONET_13035,Wildfire in India 1023608,Wildfires,2025-03-12 19:00:00+00:00,2025,3,25.790822,90.999269,Meghālaya,Meghalaya,mapped
+EONET_13037,Wildfire in India 1023609,Wildfires,2025-03-16 19:00:00+00:00,2025,3,25.758081,91.162137,Meghālaya,Meghalaya,mapped
+EONET_13040,Wildfire in India 1023610,Wildfires,2025-03-14 19:00:00+00:00,2025,3,25.913828,92.184806,Meghālaya,Meghalaya,mapped
+EONET_402,Tropical Storm Roanu,Severe Storms,2016-05-21 12:00:00+00:00,2016,5,23.3,92.5,Mizoram,Mizoram,mapped
+EONET_12879,Wildfire in India 1023587,Wildfires,2025-03-06 19:00:00+00:00,2025,3,22.483079,92.673313,Mizoram,Mizoram,mapped
+EONET_12885,Wildfire in India 1023598,Wildfires,2025-03-10 19:00:00+00:00,2025,3,22.74653,93.004633,Mizoram,Mizoram,mapped
+EONET_12886,Wildfire in India 1023599,Wildfires,2025-03-10 19:00:00+00:00,2025,3,22.955888,92.59305,Mizoram,Mizoram,mapped
+EONET_12888,Wildfire in India 1023600,Wildfires,2025-03-09 19:00:00+00:00,2025,3,22.324238,92.742181,Mizoram,Mizoram,mapped
+EONET_12892,Wildfire in India 1023594,Wildfires,2025-03-06 19:00:00+00:00,2025,3,23.181526,92.414406,Mizoram,Mizoram,mapped
+EONET_13113,"Wildfire in India, Bangladesh 1023636",Wildfires,2025-03-21 19:00:00+00:00,2025,3,22.115587,92.61231,Mizoram,Mizoram,mapped
+EONET_14236,Flood in India 1103374,Floods,2025-07-04 20:00:00+00:00,2025,7,25.911744,93.721703,Nāgāland,Nagaland,mapped
+EONET_4169,Tropical Cyclone Fani,Severe Storms,2019-05-03 06:00:00+00:00,2019,5,20.75,86.0,Odisha,Odisha,mapped
+EONET_5347,Tropical Cyclone Yaas,Severe Storms,2021-05-26 06:00:00+00:00,2021,5,21.6,87.0,Odisha,Odisha,mapped
+EONET_11744,Tropical Cyclone Dana,Severe Storms,2024-10-25 00:00:00+00:00,2024,10,20.8,86.9,Odisha,Odisha,mapped
+EONET_15656,Tropical Cyclone 01B,Severe Storms,2025-10-02 12:00:00+00:00,2025,10,19.5,84.7,Odisha,Odisha,mapped
+EONET_13377,Flood in India 1103235,Floods,2025-04-23 20:00:00+00:00,2025,4,27.81219,88.521116,Sikkim,Sikkim,mapped
+EONET_4034,Tropical Cyclone Gaja,Severe Storms,2018-11-16 00:00:00+00:00,2018,11,10.25,78.5,Tamil Nādu,Tamil Nadu,mapped
+EONET_5167,Tropical Cyclone Nivar,Severe Storms,2020-11-26 00:00:00+00:00,2020,11,12.3,79.4,Tamil Nādu,Tamil Nadu,mapped
+EONET_6307,Tropical Cyclone Mandous,Severe Storms,2022-12-10 00:00:00+00:00,2022,12,12.9,80.1,Tamil Nādu,Tamil Nadu,mapped
+EONET_12079,Tropical Cyclone Fengal,Severe Storms,2024-12-01 06:00:00+00:00,2024,12,12.1,79.9,Tamil Nādu,Tamil Nadu,mapped
+EONET_5938,Tropical Storm Shaheen-Gulab,Severe Storms,2021-09-27 18:00:00+00:00,2021,9,19.5,79.0,Telangāna,Telangana,mapped
+EONET_12862,Wildfire in India 1023570,Wildfires,2025-03-03 19:00:00+00:00,2025,3,16.171901,78.627923,Telangāna,Telangana,mapped
+EONET_13163,Wildfire in India 1023657,Wildfires,2025-03-24 19:00:00+00:00,2025,3,23.729152,91.878467,Tripura,Tripura,mapped
+EONET_15981,Flood in India 1103618,Floods,2025-11-19 08:00:00+00:00,2025,11,27.742109,77.73927,Uttar Pradesh,Uttar Pradesh,mapped
+EONET_4654,Tropical Cyclone Amphan,Severe Storms,2020-05-20 12:00:00+00:00,2020,5,22.2,88.3,West Bengal,West Bengal,mapped
+EONET_6187,Tropical Cyclone 04B,Severe Storms,2022-08-19 12:00:00+00:00,2022,8,21.85,87.75,West Bengal,West Bengal,mapped
+EONET_6521,Tropical Cyclone Remal,Severe Storms,2024-05-26 18:00:00+00:00,2024,5,21.7,88.4,West Bengal,West Bengal,mapped
