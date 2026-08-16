@@ -1,127 +1,123 @@
 # 🌍 Global Disaster Pattern Mining & Prediction Platform
 
-> An end-to-end data science and geospatial intelligence platform for analyzing NASA EONET disaster events, discovering global spatial patterns, and estimating next-month disaster-event likelihood.
+> An end-to-end **Data Science, Machine Learning, and Geospatial Intelligence platform** for analyzing NASA EONET disaster-event observations, discovering spatial patterns, and estimating next-month event likelihood.
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688)
-![React](https://img.shields.io/badge/React-Frontend-61DAFB)
-![Machine Learning](https://img.shields.io/badge/ML-scikit--learn-orange)
-![Geospatial](https://img.shields.io/badge/Geospatial-Leaflet-green)
-![Data Source](https://img.shields.io/badge/Data-NASA%20EONET-red)
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![React](https://img.shields.io/badge/React-Frontend-61DAFB?logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-Build%20Tool-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Scikit-learn](https://img.shields.io/badge/ML-scikit--learn-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Leaflet](https://img.shields.io/badge/Maps-Leaflet-199900?logo=leaflet&logoColor=white)](https://leafletjs.com/)
+[![NASA EONET](https://img.shields.io/badge/Data-NASA%20EONET-EF3B2D)](https://eonet.gsfc.nasa.gov/)
 
 ---
 
-## 🚀 Project Overview
+## 📌 Overview
 
-Global Disaster Pattern Mining is an end-to-end analytical platform built around NASA EONET disaster-event data.
+**Global Disaster Pattern Mining & Prediction Platform** is a full-stack analytical system built around disaster-event observations from **NASA EONET**.
 
-The system combines:
+The project combines:
 
-- Data collection and cleaning
-- Exploratory data analysis
+- Data collection and preprocessing
+- Data quality validation
+- Exploratory Data Analysis
 - Geospatial analysis
+- Country-level aggregation
 - Regional feature engineering
 - K-Means clustering
 - Disaster-category analysis
+- Temporal trend analysis
 - Probability calibration
-- Next-month event prediction
-- India state-level disaster analysis
-- Interactive geospatial visualization
+- Next-month event likelihood estimation
+- India state-level spatial analysis
 - FastAPI backend services
-- React-based analytical dashboard
+- Interactive React dashboard
+- Leaflet-based geospatial visualization
 
-The goal is to transform large-scale disaster-event observations into an interactive research and decision-support interface.
+The objective is to transform historical disaster-event observations into an interactive **research and decision-support platform**.
 
 ---
 
-## 🎯 Key Objectives
+# ✨ Key Highlights
 
-### 1. Global Disaster Analysis
+| Area | Capability |
+|------|------------|
+| 🌎 Global Analysis | Country and regional disaster-event analysis |
+| 🗺️ Geospatial Intelligence | Interactive global and regional maps |
+| 🧠 Machine Learning | K-Means, Logistic Regression, Random Forest, Gradient Boosting |
+| 📈 Prediction | Next-month event likelihood estimation |
+| 🎯 Calibration | Probability calibration and reliability evaluation |
+| 🇮🇳 India Intelligence | State-level spatial event mapping and risk analysis |
+| ⚡ Backend | FastAPI REST services |
+| 💻 Frontend | React + Vite analytical dashboard |
+| 📊 Visualization | Interactive maps, rankings, trends and charts |
+| 🔬 Research | End-to-end data science and ML workflow |
 
-Analyze historical disaster-event activity across countries and regions.
+---
 
-### 2. Geospatial Pattern Discovery
+# 🎯 Project Objectives
 
-Identify geographic regions with similar disaster-event characteristics using clustering.
+## 1. Global Disaster Analysis
 
-### 3. Disaster Trend Analysis
+Analyze historical disaster-event activity across countries and geographic regions.
 
-Study temporal patterns including:
+The platform provides insights into:
 
-- Yearly activity
-- Monthly activity
+- Event density
 - Disaster categories
 - Regional activity
-- Event density
-
-### 4. Predictive Intelligence
-
-Estimate the statistical likelihood of an event occurring in the following month based on historical patterns.
-
-### 5. India State-Level Analysis
-
-Provide a dedicated state-level analytical pipeline for India using administrative boundaries and spatial event mapping.
+- Recent activity
+- Historical trends
+- Country-level comparisons
 
 ---
 
-# 🧠 Machine Learning Pipeline
+## 2. Geospatial Pattern Discovery
+
+Use geospatial features and **K-Means clustering** to discover regions with similar disaster-event characteristics.
+
+The clustering workflow includes:
 
 ```text
-NASA EONET
-     │
-     ▼
-Data Collection
-     │
-     ▼
-Data Cleaning & Validation
-     │
-     ▼
+Regional Event Data
+        │
+        ▼
 Feature Engineering
-     │
-     ├───────────────┐
-     ▼               ▼
-Global Analysis   India State Mapping
-     │               │
-     ▼               ▼
-K-Means Clustering  State Features
-     │               │
-     ▼               ▼
-Cluster Analysis   State Prediction
-     │               │
-     └───────┬───────┘
-             ▼
-      Prediction Layer
-             │
-             ▼
-    Probability Calibration
-             │
-             ▼
-      FastAPI Backend
-             │
-             ▼
-      React Dashboard
+        │
+        ▼
+Feature Scaling
+        │
+        ▼
+K-Means Experiments
+        │
+        ▼
+Cluster Validation
+        │
+        ▼
+Final Regional Clusters
+        │
+        ▼
+Interactive Cluster Map
 
-🌎 Global Analytics
+<img width="1920" height="1020" alt="Screenshot 2026-08-16 132903" src="https://github.com/user-attachments/assets/1e333461-e239-4a2b-9bda-98657ef8312d" />
 
-The platform provides interactive global analysis including:
+3. Disaster Trend Analysis
 
-Country event density
-Dominant disaster category
-Recent disaster activity
-Regional profiles
-K-Means clusters
-Cluster distribution
-Historical trends
+The platform analyzes temporal patterns across the available EONET observations.
 
-The dashboard uses interactive maps to provide geographic context to the analytical results.
+Key dimensions include:
 
-🔮 Prediction Intelligence
+Yearly activity
+Monthly activity
+Disaster categories
+Regional activity
+Recent activity
+Event density
+4. Predictive Intelligence
 
-The prediction module estimates:
+The prediction system estimates the statistical likelihood of an EONET-type event being observed during the following month.
 
-Next-Month Event Likelihood
-
-using historical temporal features such as:
+The prediction pipeline uses historical temporal features including:
 
 Current event activity
 Previous-month activity
@@ -129,34 +125,114 @@ Previous 3-month activity
 Previous 6-month activity
 Previous 12-month activity
 Historical event activity
+Historical active periods
 Seasonal features
 Time progression
+🧠 Machine Learning Architecture
+                    NASA EONET
+                        │
+                        ▼
+                Data Collection
+                        │
+                        ▼
+              Data Cleaning & QA
+                        │
+                        ▼
+                Feature Engineering
+                        │
+              ┌─────────┴─────────┐
+              │                   │
+              ▼                   ▼
+       Global Analysis      India State Mapping
+              │                   │
+              ▼                   ▼
+      Regional Features      State Features
+              │                   │
+              ▼                   ▼
+       K-Means Clustering    State Prediction
+              │                   │
+              └─────────┬─────────┘
+                        ▼
+                 Prediction Layer
+                        │
+                        ▼
+              Probability Calibration
+                        │
+                        ▼
+                  FastAPI Backend
+                        │
+                        ▼
+                  React Dashboard
+🔮 Prediction Intelligence
+Prediction Target
 
-Probability calibration is applied to improve the reliability of predicted probabilities.
+The primary prediction target is:
 
-Calibration Results
+Next-Month Event Likelihood
 
-The final global calibrated model achieved approximately:
+The system estimates the probability of at least one relevant EONET event being observed in the target region during the following month.
+
+Feature Engineering
+
+The prediction dataset contains temporal and historical features such as:
+
+Current Event Count
+Previous Month Events
+Previous 3-Month Events
+Previous 6-Month Events
+Previous 12-Month Events
+Same-Month Historical Events
+Historical Total Events
+Historical Active Months
+Recent Activity Share
+Month Sin
+Month Cos
+Years Since 2015
+
+Seasonality is represented using cyclic transformations:
+
+month_sin
+month_cos
+
+This allows the model to represent the cyclical nature of calendar months.
+
+📊 Model Evaluation
+
+Because disaster-event prediction is a rare-event classification problem, accuracy alone is not sufficient.
+
+The project evaluates models using:
+
+Precision
+Recall
+F1-score
+ROC-AUC
+PR-AUC
+Brier Score
+Probability calibration
+Global Calibrated Model
+
+The final global calibrated prediction model achieved approximately:
 
 Metric	Result
 ROC-AUC	0.81
 Brier Score	0.13
 
-The calibrated model substantially improves probability quality compared with the raw model.
+These metrics are used to evaluate both discrimination and probability quality.
 
 🇮🇳 India State-Level Intelligence
 
-A separate India-focused pipeline maps EONET event geometries to Indian state/UT administrative boundaries.
+The project contains a dedicated India state-level analytical pipeline.
 
-Current pipeline:
+Historical EONET event geometries are spatially matched against Indian administrative boundaries.
 
+Spatial Processing Pipeline
 EONET Event Geometry
         │
         ▼
 India ADM1 Boundaries
         │
         ▼
-Spatial Join
+Spatial Intersection
         │
         ▼
 State ↔ Event Association
@@ -165,60 +241,96 @@ State ↔ Event Association
 Monthly State Timeline
         │
         ▼
-Prediction Features
+State Prediction Features
         │
         ▼
 State-Level Risk Engine
+        │
+        ▼
+Interactive Dashboard
+Current Dataset
 
-The current dataset contains:
+The current India state-level pipeline contains:
 
-20 represented Indian states
-66 unique events affecting India
-71 state-event associations
-2 multi-state events
-2,380 prediction rows
+Metric	Value
+Represented States	20
+Unique Events Affecting India	66
+State-Event Associations	71
+Multi-State Events	2
+Prediction Rows	2,380
 
-The India state pipeline also provides data-confidence indicators because the available historical state-level observations are limited.
+The state-level pipeline also reports data-confidence indicators because state-level historical observations are considerably more limited than the global dataset.
 
 🗺️ Interactive Dashboard
 
-The React dashboard provides:
+The React dashboard provides multiple analytical modules.
 
-Global Map
+🌎 Global Map
 
-Interactive global disaster-event density and regional analysis.
+Interactive global disaster-event visualization with:
 
-Prediction Intelligence
+Country event density
+Dominant disaster type
+Recent activity
+Cluster information
+Regional profiles
+Country-level analysis
+🔮 Prediction Intelligence
 
-Interactive next-month likelihood visualization.
+Interactive next-month likelihood visualization with:
 
-Clusters
+Prediction probability map
+Probability bands
+Regional ranking
+Prediction metrics
+Historical prediction trends
+Regional prediction details
+Statistical interpretation
+Prediction disclaimer
+🧩 Clusters
 
-Geospatial K-Means cluster exploration.
+Explore geographic regions discovered through K-Means clustering.
 
-Trends
+Includes:
 
-Historical disaster-event trends.
+Cluster distribution
+Cluster characteristics
+Geographic visualization
+Regional comparisons
+📈 Trends
 
-Categories
+Analyze historical disaster activity over time.
 
-Disaster-category distribution and analysis.
+Includes:
 
-Region Explorer
+Yearly trends
+Monthly patterns
+Regional activity
+Event frequency
+🏷️ Categories
 
-Detailed regional profiles.
+Explore disaster-event categories and their distribution across the dataset.
 
-India State Intelligence
+🌐 Region Explorer
 
-State-level disaster activity and prediction analysis.
+Detailed regional profiles providing geographic and historical context.
 
+🇮🇳 India State Intelligence
+
+Dedicated state-level analytical capabilities including:
+
+State event history
+State prediction scores
+Risk levels
+Data-confidence indicators
+State-level rankings
+Geographic visualization
 🛠️ Technology Stack
 Backend
 Python
 FastAPI
 Pandas
 NumPy
-Scikit-learn
 Joblib
 Shapely
 Frontend
@@ -228,6 +340,7 @@ JavaScript
 CSS
 Leaflet
 Machine Learning
+Scikit-learn
 Logistic Regression
 Random Forest
 Histogram Gradient Boosting
@@ -249,8 +362,13 @@ global-disaster-pattern-mining/
 │   └── prediction_api.py
 │
 ├── dashboard/
-│   ├── src/
 │   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── utils/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   └── main.jsx
 │   ├── package.json
 │   └── vite.config.js
 │
@@ -262,9 +380,11 @@ global-disaster-pattern-mining/
 │   ├── collect_eonet.py
 │   ├── clean_eonet.py
 │   ├── prepare_eonet.py
+│   ├── prepare_ml_features.py
 │   ├── eda.py
 │   ├── regional_features.py
 │   ├── train_final_kmeans.py
+│   ├── validate_kmeans.py
 │   ├── train_prediction_models.py
 │   ├── calibrate_prediction_model.py
 │   ├── final_calibrated_prediction.py
@@ -272,22 +392,35 @@ global-disaster-pattern-mining/
 │   └── build_india_state_risk_engine.py
 │
 ├── data/
+│   ├── processed/
 │   └── prediction/
 │
 ├── requirements.txt
 ├── README.md
 └── .gitignore
 ⚙️ Local Development
-1. Clone
+1. Clone the Repository
 git clone https://github.com/SINANAHMD/global-disaster-pattern-mining.git
+
+
 cd global-disaster-pattern-mining
-2. Create virtual environment
-python -m venv .venv
+2. Create a Python Virtual Environment
 Windows
+python -m venv .venv
+
+
 .venv\Scripts\activate
-3. Install dependencies
+Linux / macOS
+python3 -m venv .venv
+
+
+source .venv/bin/activate
+3. Install Python Dependencies
 pip install -r requirements.txt
-4. Start backend
+🚀 Run the Backend
+
+Start the FastAPI backend:
+
 uvicorn backend.main:app --reload
 
 Backend:
@@ -297,31 +430,80 @@ http://127.0.0.1:8000
 API documentation:
 
 http://127.0.0.1:8000/docs
-5. Start dashboard
+💻 Run the Dashboard
+
+Open another terminal:
+
 cd dashboard
+
+Install frontend dependencies:
+
 npm install
+
+Start the development server:
+
 npm run dev
-📊 Model Evaluation
 
-Because disaster events are highly imbalanced, evaluation should not rely on accuracy alone.
+The Vite development server will provide the local dashboard URL.
 
-The project considers:
+🔬 Data Science Workflow
+
+The overall research workflow follows:
+
+Data Collection
+      ↓
+Data Quality Audit
+      ↓
+Data Cleaning
+      ↓
+Data Preparation
+      ↓
+Exploratory Data Analysis
+      ↓
+Regional Feature Engineering
+      ↓
+Geospatial Analysis
+      ↓
+K-Means Clustering
+      ↓
+Prediction Dataset Creation
+      ↓
+Model Training
+      ↓
+Model Evaluation
+      ↓
+Probability Calibration
+      ↓
+India State-Level Analysis
+      ↓
+FastAPI Services
+      ↓
+Interactive React Dashboard
+📈 Rare-Event Prediction
+
+The prediction problem is highly imbalanced.
+
+Therefore, the project does not rely on accuracy alone.
+
+For example, a model could achieve high accuracy simply by predicting that an event will not occur most of the time.
+
+Instead, the project emphasizes:
 
 Precision
 Recall
-F1-score
+F1
 ROC-AUC
 PR-AUC
 Brier Score
-Probability calibration
+Calibration
 
-This is especially important when evaluating rare-event prediction.
+This provides a more meaningful evaluation of rare-event prediction performance.
 
 ⚠️ Important Limitations
 
 This project is a research and analytical prediction system.
 
-Its predictions are statistical estimates derived from historical EONET observations.
+Predictions are statistical estimates derived from historical NASA EONET observations.
 
 The system is NOT:
 
@@ -329,26 +511,89 @@ An official disaster warning system
 A government emergency alert system
 A guaranteed disaster forecast
 A real-time emergency notification service
-A replacement for official meteorological or disaster-management authorities
+A replacement for official meteorological authorities
+A replacement for disaster-management authorities
 
 A high predicted probability should be interpreted as:
 
-Historical patterns indicate an increased statistical likelihood of an EONET-type event being observed in the target period.
+Historical patterns indicate an increased statistical likelihood of an EONET-type event being observed during the target period.
 
 It does not mean that a disaster is guaranteed to occur.
 
-India state-level predictions should also be interpreted carefully because the available state-level event observations are limited.
+India State-Level Limitation
 
-🔬 Research Focus
+India state-level predictions should be interpreted particularly carefully because the available state-level historical observations are limited.
 
-This project demonstrates an end-to-end workflow combining:
+The dashboard therefore includes data-confidence indicators alongside prediction outputs.
 
-Data Engineering → Exploratory Analysis → Geospatial Analytics → Machine Learning → Probability Calibration → Prediction → API Development → Interactive Visualization
+🔐 Research & Responsible Interpretation
 
-It is designed as a portfolio/research project demonstrating practical application of data science and machine learning to geospatial disaster-event data.
+The platform is designed for:
+
+Educational research
+Data science experimentation
+Geospatial analysis
+Machine learning research
+Historical disaster-pattern analysis
+Portfolio demonstration
+Decision-support research
+
+Prediction outputs should not be used as the sole basis for emergency response or public safety decisions.
+
+Official disaster-management and meteorological sources should always be consulted for real-world warnings and emergency decisions.
+
+🔮 Future Improvements
+
+Potential future development areas include:
+
+More comprehensive historical disaster datasets
+Additional geospatial features
+Weather and climate variables
+Population and infrastructure exposure data
+Improved rare-event modelling
+Additional calibration techniques
+Temporal cross-validation
+More granular administrative-level analysis
+Real-time data updates
+Cloud deployment
+Automated model retraining
+Advanced spatial-temporal models
+🎓 Research Focus
+
+This project demonstrates an end-to-end application of:
+
+Data Engineering
+        ↓
+Exploratory Data Analysis
+        ↓
+Geospatial Analytics
+        ↓
+Feature Engineering
+        ↓
+Machine Learning
+        ↓
+Model Evaluation
+        ↓
+Probability Calibration
+        ↓
+Prediction
+        ↓
+API Development
+        ↓
+Interactive Visualization
+
+The project demonstrates how historical geospatial event data can be transformed into an interactive analytical and machine-learning platform.
 
 👨‍💻 Author
-
 Sinan Ahmd
 
 B.Sc. Computer Science
+
+Data Science • Machine Learning • Geospatial Analytics • Full-Stack Development
+
+
+
+
+
+
+
