@@ -17,7 +17,8 @@ from pathlib import Path
 import pandas as pd
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from prediction_api import router as prediction_router
+from backend.prediction_api import router as prediction_router
+
 
 
 # ============================================================
